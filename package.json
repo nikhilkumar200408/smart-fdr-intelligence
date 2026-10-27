@@ -1,0 +1,3 @@
+{ "name": "smart-fdr-intelligence", "private": true, "workspaces": ["apps/*"],
+  "scripts": { "dev:api": "npm -w apps/api run dev", "dev:web": "npm -w apps/web run dev",
+    "db:push": "npm -w apps/api run db:push", "seed": "npm -w apps/api run seed" } }
